@@ -1,0 +1,93 @@
+/* libreria para hacerlo con js "fullpages.js" */
+
+
+/* Como scroll no se puede ejercer al body se le coloca al html  */
+
+
+
+body{
+    margin: 0;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a{
+    display: inline-block;
+    padding: 0.5rem;
+    position: relative;
+}
+
+a:hover::before{
+    transform: scale(2);
+
+}
+
+a:hover::after{
+    opacity: 1;
+}
+
+a::after{
+    content: attr(href);
+    position: absolute;
+    left: -3.5rem;
+    top: 0.5rem;
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    color: white;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+a::before{
+    content: '';
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    margin-bottom: 0.5rem;
+    transition: transform 0.25;
+}
+
+section{
+    scroll-snap-align: center;
+
+    /* !!! ver en can i use      scroll-snap-stop   !!!!!!! */
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+
+}
+
+
+
+section:nth-of-type(1){
+    background-color: #1eb4e9;
+}
+
+section:nth-of-type(2){
+    background-color: #29d663;
+}
+
+section:nth-of-type(3){
+    background-color: #e6ff5b;
+}
+
+section:nth-of-type(4){
+    background-color: #c51b1b;
+}
