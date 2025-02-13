@@ -932,6 +932,37 @@ section:nth-of-type(5) {
   background-repeat: no-repeat;
 }
 
+.Prokect10 {
+  background-image: url(../img/webs/Carrier.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Prokect11 {
+  background-image: url(../img/webs/CMT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Prokect12 {
+  background-image: url(../img/webs/OCVisitas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Prokect13 {
+  background-image: url(../img/webs/VAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Prokect14 {
+  background-image: url(../img/webs/Destrucciones.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .textAcercaContact {
   width: 70%;
   font-size: 4.3vw;
