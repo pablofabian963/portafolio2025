@@ -1,0 +1,39 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-size: 2em;
+    --colum-size: 100%;
+    // --MainColor:$MainColor;
+}
+
+// z-index table
+:root{
+--z-back    :-20;
+--z-particle:-10;
+--z-normal  :1;
+--z-tooltip :10;
+--z-fixed   : 100;
+--z-modal   :1000;
+--z-loader : 2000;
+}
+
+//Colors
+$MainColor: #00DC99; 
+$SecondColor: #C284C7;
+$ThirdColor: #002046;
+$FontS33: 7.9vw;
+$FontS18:4.3vw;
+$FontS13:3.11vw;
+$FontD64Title:3.2vw;
+$FontD40Text: 2vw;
+$FontD36Text: 1.83vw; 
+$FontD33Text:1.7vw;
+$FontD32textHome:1.3vw;
+
+
+
+
